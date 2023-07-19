@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sample4</title>
+</head>
+<body>
+    <div class='signup'>
+        <div class='left-box'>
+          <h1>PUPPy</h1>
+          <div class='puppy'>
+            <img src='./naru.jpg'>
+          </div>
+        </div>
+        <div class='right-box'>
+          <header>
+            <h1>Anime is Not a Cartoon, Emotion</h1>
+            <div class='set'>
+              <div class='pets-name'>
+                <label for='pets-name'>Name</label>
+                <input id='pets-name' placeholder="Shipidan name" type='text'>
+              </div>
+              <div class='pets-photo'>
+                <!-- <button id='pets-upload'></button> -->
+                <!-- <label>Upload a photo</label> -->
+                <input type="file">
+              </div>
+            </div>
+            <div class='set'>
+              <div class='pets-breed'>
+                <label>Shipidan</label>
+                <input id='pets-breed' placeholder="Shipidan" type='text'>
+              </div>
+              <div class='pets-birthday'>
+                <label>Birthday</label>
+                <input id='pets-birthday' placeholder='MM/DD/YYYY' type='date'>
+              </div>
+            </div>
+            <div class='set'>
+              <div class='pets-gender'>
+                <label for='pet-gender-female'>Gender</label>
+                <div class='radio-container'>
+                  <input checked='' id='pet-gender-female' name='pet-gender' type='radio' value='female'>
+                  <label>Male</label>
+                  <input id='pet-gender-male' name='pet-gender' type='radio' value='male'>
+                  <label>Female</label>
+                </div>
+              </div>
+              <div class='pets-spayed-neutered'>
+                <label for='pet-spayed'>Naruto or Kakachi</label>
+                <div class='radio-container'>
+                  <input checked='' id='pet-spayed' name='spayed-neutered' type='radio' value='Naruto'>
+                  <label>Naruto</label>
+                  <input id='pet-neutered' name='spayed-neutered' type='radio' value='Kakachi'>
+                  <label>Kakachi</label>
+                </div>
+              </div>
+            </div>
+            <div class='pets-weight'>
+              <label for='pet-weight-0-25'>power-source</label>
+              <div class='radio-container'>
+                <input checked='' id='pet-weight-0-25' name='pet-weight' type='radio' value='Rasingan'>
+                <label>Rasingan</label>
+                <input id='pet-weight-25-50' name='pet-weight' type='radio' value='Shadow clone'>
+                <label>Shadow </label>
+                <input id='pet-weight-50-100' name='pet-weight' type='radio' value='Healing Factor'>
+                <label>Healing</label>
+                <input id='pet-weight-100-plus' name='pet-weight' type='radio' value='Jutus'>
+                <label>Jutus</label>
+              </div>
+            </div>
+          </header>
+          <footer>
+            <div class='set'>
+              <button id='back'>Back</button>
+              <button id='next'>Next</button>
+            </div>
+          </footer>
+        </div>
+      </div>
+</body>
+</html>
